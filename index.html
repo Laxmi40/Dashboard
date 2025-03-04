@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a29cf6f6d0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1><i class="fa-solid fa-book"></i> Library Management System Dashboard</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Dashboard.html">Home</a></li>
+                    <li><a href="form.html">Add books</a></li>
+                    <li><a href="Issuebook.html">Issue books</a></li>
+                    <li><a href="Returnbooks.html">Return books</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </header>
+
+        <div class="sidebar">
+            <div><i class="fa-solid fa-gauge"></i>
+                <h1></h1><b>Dashboard</b>
+            </div>
+            <div><i class="fa-solid fa-user"></i><b>Profile</b></div>
+            <div><i class="fa-solid fa-book"></i> <b>Library</b></div>
+            <div><i class="fa-solid fa-book-open-reader"></i><b>Book Requests</b></div>
+            <div><i class="fa-solid fa-check"></i><b>Notification</b></div>
+            <div><i class="fa-solid fa-people-roof"></i> <b>Users Management</b></div>
+            <div><i class="fa-solid fa-bars"></i><b>Setting</b></div>
+            <div><i class="fa-solid fa-database"></i><b>Database Backup</b></div>
+
+
+        </div>
+
+        <div class="flex-container">
+            <!-- <h1>User</h1> -->
+            <div id="box1">
+                <i class="fa-solid fa-users"></i><br><br>
+                <h1>0</h1>
+                <p>Total Members</p>
+            </div>
+            <div id="box2">
+                <i class="fa-solid fa-book"></i><br><br>
+                <h1>0</h1>
+                <p>Total Books</p>
+            </div>
+            <div id="box3">
+                <i class="fa-solid fa-clock"></i>
+                <h1>0</h1>
+                <p>Total Issue</p>
+            </div>
+            <div id="box4">
+                <i class="fa-solid fa-share"></i>
+                <h1>0</h1>
+                <p>Total Return</p>
+            </div>
+        </div>
+        <div class="table">
+            <div class="main">
+                <h1><b>Recents Circulation</b></h1>
+                <h2>Add Issue</h2>
+            </div>
+
+            <table border="1px" cellspacing="0" cellpadding="10">
+                <tr>
+                    <td>
+                        <label for="entries" class="class1">Show</label>
+                        <input type="number" pattern="[1-10]" maxlenght="2" placeholder="10" id="id1"> Entries
+                    </td>
+                    <td><label for="Search" class="class2">Search</label>
+                        <input type="text" pattern="[A-Za-z]" placeholder="Name...." id="id2">
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <table border="1" cellpadding="1" cellspacing="0">
+            <thead>
+                <tr>
+                    <td>Member ID</td>
+                    <td>BOOk ID</td>
+                    <td>Issue Date</td>
+                    <td>Due Date</td>
+                    <td>Return Date</td>
+                    <td>Status</td>
+                    <td>Action</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td colspan="7" rowspan="10" class="data"><b>no data found </b></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Library Management System. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

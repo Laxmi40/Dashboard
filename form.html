@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add book page</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://kit.fontawesome.com/a29cf6f6d0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1><i class="fa-solid fa-book"></i> Library Management System Dashboard</h1>
+
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Dashboard.html">Home</a></li>
+                    <li><a href="form.html">Addbooks</a></li>
+                    <li><a href="Issuebook.html">Issuebooks</a></li>
+                    <li><a href="Returnbooks.html">Returnbooks</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </header>
+
+        <div class="sidebar">
+            <div><i class="fa-solid fa-gauge"></i>
+                <h1></h1><b>Dashboard</b>
+            </div>
+            <div><i class="fa-solid fa-user"></i><b>Profile</b></div>
+            <div><i class="fa-solid fa-book"></i> <b>Library</b></div>
+            <div><i class="fa-solid fa-book-open-reader"></i><b>Book Requests</b></div>
+            <div><i class="fa-solid fa-check"></i><b>Notification</b></div>
+            <div><i class="fa-solid fa-people-roof"></i> <b>Users Management</b></div>
+            <div><i class="fa-solid fa-bars"></i><b>Setting</b></div>
+            <div><i class="fa-solid fa-database"></i><b>Database Backup</b></div>
+
+
+        </div>
+
+        <div class="container1">
+            <h1>Add Books</h1>
+            <div class="box1">
+                <form action="">
+
+
+                    <label for="">Title:</label>
+                    <input type="text" placeholder="The name of the book." pattern=required><br><br>
+                    <br>
+                    <label for="">Author(s):</label>
+                    <input type="text" placeholder="Name(s) of the author(s)" id="Name(s) of the author(s)."><br><br>
+
+                    <label for="">publisher:</label>
+                    <input type="text" placeholder="Name of the publishing company."><br><br>
+
+                    <label for="">ISBN:</label>
+                    <input type="text"
+                        placeholder="Unique International Standard Book Number For identification."><br><br>
+
+                    <label for="">Edition:</label>
+                    <input type="number" id="number" placeholder="The edition or version of the book." required><br><br>
+
+
+                    <label for="">Language:</label>
+                    <input type="text" placeholder="The language in which the book is written."><br><br>
+
+                    <label for="">Genre/Category:</label>
+                    <select name="" id="">
+                        <option value="Genre" class="active">Genre</option>
+                        <option value="Fiction">fiction</option>
+                        <option value="">Romance</option>
+                        <option value="">Action</option>
+                        <option value="">Non-fiction</option>
+                        <option value="">Science</option>
+                        <option value="">History</option>
+                        <option value="">Slice of life</option>
+                        <option value="">Adventure</option>
+                    </select><br><br>
+
+                    <label for="">Subject/Feilds:</label>
+                    <select name="" id="">
+                        <option value="Mathematics">Mathematics</option>
+                        <option value="literature"></option>
+                        <option value="">Computer</option>
+                        <option value="">Programming</option>
+                        <option value="">English</option>
+                    </select>
+            </div>
+            <div class="box2">
+                <button type="Add Books">Add Books</button>
+            </div>
+            </form>
+        </div>
+        <footer>
+            <p>&copy; 2024 Library Management System. All rights reserved.</p>
+        </footer>
+</body>
+
+</html>

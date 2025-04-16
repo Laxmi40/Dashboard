@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Issue.css">
+    <script src="https://kit.fontawesome.com/a29cf6f6d0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1><i class="fa-solid fa-book"></i> Library Management System Dashboard</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Dashboard.html">Home</a></li>
+                    <li><a href="form.html">Addbooks</a></li>
+                    <li><a href="Issuebook.html">Issuebooks</a></li>
+                    <li><a href="Returnbooks.html">Returnbooks</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </header>
+
+        <div class="sidebar">
+            <div><i class="fa-solid fa-gauge"></i>
+                <h1></h1><b>Dashboard</b>
+            </div>
+            <div><i class="fa-solid fa-user"></i><b>Profile</b></div>
+            <div><i class="fa-solid fa-book"></i> <b>Library</b></div>
+            <div><i class="fa-solid fa-book-open-reader"></i><b>Book Requests</b></div>
+            <div><i class="fa-solid fa-check"></i><b>Notification</b></div>
+            <div><i class="fa-solid fa-people-roof"></i> <b>Users Management</b></div>
+            <div><i class="fa-solid fa-bars"></i><b>Setting</b></div>
+            <div><i class="fa-solid fa-database"></i><b>Database Backup</b></div>
+
+
+        </div>
+
+        <div class="container1">
+            <h1> Add New Issues</h1>
+            <form>
+                <div class="box2">
+                    <!-- <label for="Member Information"><h2><b>Member Information:</b></h2></label>
+                <br><br> -->
+
+                    <label for="Member ID"><b>Member ID:</b></label>
+                    <input type="Number" placeholder="Member ID" minlength="3" maxlength="20"><br><br>
+
+                    <label for="Member Name"><b>Member Name:</b></label>
+                    <input type="Text" placeholder="Name of the member" minlength="3" maxlength="20"><br><br>
+
+                    <label for="Contact Information"><b>Contact Information:</b></label>
+                    <input type="Number" placeholder="Contact number" minlength="3" maxlength="20"><br><br>
+
+                    <!-- <label for="Book Information"><h2><b>Book Information:</b></h2></label>
+                <br><br> -->
+
+                    <label for="Book ID/Accession Number"><b>Book ID/Accession Number:</b></label>
+                    <input type="Number" placeholder="Book Number" minlength="3" maxlength="20"><br><br>
+
+                    <label for="Book Title"><b>Book Title:</b></label>
+                    <input type="Text" placeholder="Title of the book" minlength="3" maxlength="20"><br><br>
+
+                    <label for="Author Name"><b>Author Name:</b></label>
+                    <input type="Text" placeholder="Name of the author" minlength="3" maxlength="20"><br><br>
+
+                    <!-- <label for="Issue Date"><h2><b>Issue Date:</b></h2></label>
+                <br><br> -->
+
+                    <label for="Due Date"><b>Due Date:</b></label>
+                    <input type="Number" placeholder="Due Date" minlength="3" maxlength="20"><br><br>
+
+                    <label for="Issued By"><b>Issued By:</b></label>
+                    <input type="Text" placeholder="Librarian ID/Name" minlength="3" maxlength="20"><br><br>
+
+                    <!-- <label for="Additional Fields"><h2><b>Additional Fields:</b></h2></label>
+                <br><br> -->
+
+                    <label for="Remarks/Notes"><b>Remarks/Notes:</b></label>
+                    <input type="Text" placeholder="Remark/Notes" minlength="3" maxlength="50"><br><br>
+
+                    <label for="Borrowing Limits Check"><b>Borrowing Limits Check:</b></label>
+                    <input type="Text" placeholder="Borrowing the limits check" minlength="3" maxlength="20"><br><br>
+                </div>
+                <div class="box">
+                    <button type="Add New Issues">Add New Issues</button>
+                </div>
+            </form>
+
+        </div>
+        <footer>
+            <p>&copy; 2024 Library Management System. All rights reserved.</p>
+        </footer>
+</body>
+
+</html>
